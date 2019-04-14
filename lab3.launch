@@ -1,0 +1,18 @@
+<launch>
+
+
+<node pkg="puppet_hand" type="puppet_hand_node" name="group11_puppet" output="screen">
+	
+       
+
+</node>
+
+<node pkg="puppet_hand" type="control_node" name="group11_control" output="screen">
+	
+       
+
+</node>
+
+
+
+</launch>
