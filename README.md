@@ -1,2 +1,3 @@
 # Puppet-Hand-Baxter-Robot
-The goal of this lab is to program a node that can move the left arm of Baxter in such a way that the left hand remains at the same 3D pose from the right hand, with their z-axes opposed. 
+The goal of this lab is to program a node that can move the left arm of Baxter in such a way that the left hand remains at the same 3D pose from the right hand, with their z-axes opposed. To do so, we will use services and 3D transformations listeners and broadcasters. A broadcaster will broadcast the joint value of right hand, and a server will be used to calculate the right hand coordiante by using this coordinates and then generate the need control joint velocity for the left hand.
+This project is a course project for the software design of robotic in Ecole Centrale de Nantes. The framework of the project is given by professor Geatan Garcia and Olivier Kermorgant
